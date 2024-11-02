@@ -56,7 +56,7 @@ def selecting():
     conn.commit()
     conn.close()
     response_string = ""
-    response_string += "<table>
+    response_string += "<table>"
     for player in records:
         response_string += "<tr>"
         for info in player:
